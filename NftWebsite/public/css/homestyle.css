@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+    
+   
+
+}
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    Font-family: "Montserrat",sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+.navlinks{
+    list-style: none;
+    
+
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+
+.navlinks li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navlinks li a:hover {
+    color:#8502ff
+}
+
+
+button {
+
+   
+    padding: 10px 20px;
+    background-color: rgb(193, 4, 250);
+    border: none;
+    border-radius: 50px;    
+    cursor:pointer; 
+    transition: all 0.3s ease 0s;
+    
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.title{
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    Font-family: "Bahnschrift Condensed";
+    font-weight: 500;
+    font-size: 9em;
+    line-height: 135px;
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    top: 250px;
+    left: -100%;
+    
+    animation: reveal 1s forwards 1s ;
+    
+}
+@keyframes reveal{
+    from{
+        left:-100%
+    }
+    to{
+        left: 10%;
+    }
+
+}
